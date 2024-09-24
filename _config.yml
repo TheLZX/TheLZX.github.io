@@ -28,9 +28,32 @@ twitter_username: TheLZX
 github_username:  TheLZX
 
 # Build settings
-theme: minima
+#theme: minima
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
+minimal_mistakes_skin: "dark"
+logo: "https://avatars.githubusercontent.com/u/22313313?v=4"
+repository: "TheLZX/TheLZX.github.io"
+teaser: "/assets/images/500x300.png"
+header:
+  teaser: "/assets/images/my-awesome-post-teaser.jpg"
+#masthead_title: "My Custom Title"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
