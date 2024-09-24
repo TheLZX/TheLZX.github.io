@@ -53,7 +53,7 @@ defaults:
 
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
+  - jekyll-include-cache
 
 # Exclude from processing.
 # The following items will not be processed, by default.
